@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">Shree Valli Matric</h3>
-            <p className="mb-4 text-gray-300">Providing quality education and nurturing young minds since 1985.</p>
+            <p className="mb-4 text-gray-300">Providing quality education and nurturing young minds.</p>
           </div>
           
           <div>
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-          <p className="text-gray-400">&copy; {currentYear} Riverside Academy. All rights reserved.</p>
+          <p className="text-gray-400">&copy; {currentYear} Shree Valli Matric. All rights reserved.</p>
         </div>
       </div>
     </footer>
