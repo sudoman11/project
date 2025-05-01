@@ -29,14 +29,9 @@ const Header = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about', dropdown: [
-      { name: 'School History', path: '/about#history' },
-      { name: 'Principals', path: '/about#principals' },
-      { name: 'Vision & Mission', path: '/about#vision' },
-    ]},
+    { name: 'About', path: '/about'},
     { name: 'Academics', path: '/academics' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Contact', path: '/contact' },
   ];
 
   return (

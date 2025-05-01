@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,22 +10,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Riverside Academy</h3>
+            <h3 className="text-xl font-bold mb-4">Shree Valli Matric</h3>
             <p className="mb-4 text-gray-300">Providing quality education and nurturing young minds since 1985.</p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-primary transition-colors">
-                <Youtube className="w-5 h-5" />
-              </a>
-            </div>
           </div>
           
           <div>
@@ -44,11 +30,11 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin className="w-5 h-5 mr-3 text-primary mt-1" />
-                <span className="text-gray-300">123 Education Street, School District, City, Country - 12345</span>
+                <span className="text-gray-300">Ichipalayam, Kodumudi Erode, Tamil Nadu PIN Code: 638151 (INDIA)</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-3 text-primary" />
-                <span className="text-gray-300">+1 (123) 456-7890</span>
+                <span className="text-gray-300">+91 94897-18060</span>
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-3 text-primary" />

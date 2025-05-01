@@ -3,27 +3,6 @@ import { Users, BookOpen, Award } from 'lucide-react';
 import historyImage from '../pages/images.jpg'; // Import the school history image
 
 const About = () => {
-  const principals = [
-    {
-      name: "Dr. Sarah Johnson",
-      position: "Principal",
-      bio: "Dr. Johnson has over 20 years of experience in education, with a Ph.D. in Educational Leadership. She believes in fostering a supportive environment where every student can thrive.",
-      placeholder: "Principal Image"
-    },
-    {
-      name: "Mr. Robert Chen",
-      position: "Vice Principal",
-      bio: "Mr. Chen oversees the academic curriculum and student activities. With his background in Mathematics and Education, he brings innovative teaching methods to our school.",
-      placeholder: "Vice Principal Image"
-    },
-    {
-      name: "Mrs. Emily Rodriguez",
-      position: "Head of Elementary",
-      bio: "Mrs. Rodriguez specializes in early childhood education and ensures our youngest learners receive the attention and care they need to build a strong foundation.",
-      placeholder: "Head of Elementary Image"
-    }
-  ];
-  
   return (
     <div className="pt-24 pb-16">
       <div className="container mx-auto px-4">
@@ -90,26 +69,6 @@ const About = () => {
                 Excellence, Integrity, Respect, Innovation, and Community. These core values guide our approach to education and shape our school culture.
               </p>
             </div>
-          </div>
-        </section>
-        
-        {/* Principals Section */}
-        <section id="principals" className="mb-20">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Leadership</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {principals.map((principal, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <div className="aspect-square bg-gray-200 flex items-center justify-center">
-                  <div className="text-gray-400">{principal.placeholder}</div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1">{principal.name}</h3>
-                  <p className="text-primary font-medium mb-4">{principal.position}</p>
-                  <p className="text-gray-700">{principal.bio}</p>
-                </div>
-              </div>
-            ))}
           </div>
         </section>
       </div>
