@@ -14,11 +14,11 @@ const About = () => {
           </p>
         </div>
 
-                {/* Principal, Vice Principal & Correspondent Section */}
-                <section id="leadership" className="mb-20">
+                       {/* Principal, Vice Principal, Correspondent & Academic Incharge Section */}
+        <section id="leadership" className="mb-20">
           <h2 className="text-3xl font-bold text-center mb-12">Our Leadership</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
               <h3 className="text-xl font-bold mb-2">P. Thiyagarajan, B.E.</h3>
               <h4 className="text-lg font-semibold text-gray-600 mb-2">Correspondent</h4>
@@ -40,6 +40,14 @@ const About = () => {
               <h4 className="text-lg font-semibold text-gray-600 mb-2">Vice Principal</h4>
               <p className="text-gray-700">
                 P. Prabhakaran supports the academic and administrative functions of the school with expertise and dedication.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <h3 className="text-xl font-bold mb-2">P. Saravanan, MBA.</h3>
+              <h4 className="text-lg font-semibold text-gray-600 mb-2">Academic Incharge</h4>
+              <p className="text-gray-700">
+                P. Saravanan oversees the academic programs, ensuring quality education and fostering a culture of continuous improvement.
               </p>
             </div>
           </div>
