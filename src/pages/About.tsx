@@ -36,7 +36,7 @@ const About = () => {
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <h3 className="text-xl font-bold mb-2">P. Prabhakaran, M.A., B.Ed., M.A., PGDCA</h3>
+              <h3 className="text-xl font-bold mb-2">P. Prabhakaran, M.A.,B.Ed(English).,M.A(Sociology)., PGDCA.,PGHRM.,</h3>
               <h4 className="text-lg font-semibold text-gray-600 mb-2">Vice Principal</h4>
               <p className="text-gray-700">
                 P. Prabhakaran supports the academic and administrative functions of the school with expertise and dedication.
